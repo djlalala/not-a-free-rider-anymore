@@ -12,6 +12,10 @@ func init() {
 	fmt.Printf("这是tools包的 init 方法\n")
 }
 
+func Ending(str string) {
+	fmt.Println("程序执行结束:", str)
+}
+
 func Hello() {
 	fmt.Printf("OUTPUT:别做伸手党! 这是 %v() 方法\n", GetFunctionName(Hello))
 }
